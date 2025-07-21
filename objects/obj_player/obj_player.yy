@@ -8,8 +8,8 @@
   "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +33,8 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"Move_x","filters":[],"listItems":[],"multiselect":false,"name":"Move_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"Move_y","filters":[],"listItems":[],"multiselect":false,"name":"Move_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"Walk_speed","filters":[],"listItems":[],"multiselect":false,"name":"Walk_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"Jump_speed","filters":[],"listItems":[],"multiselect":false,"name":"Jump_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"Walk_speed","filters":[],"listItems":[],"multiselect":false,"name":"Walk_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"Jump_speed","filters":[],"listItems":[],"multiselect":false,"name":"Jump_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"16","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

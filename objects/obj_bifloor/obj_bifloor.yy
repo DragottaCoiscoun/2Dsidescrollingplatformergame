@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_floor",
+  "%Name":"obj_bifloor",
   "eventList":[],
   "managed":true,
-  "name":"obj_floor",
+  "name":"obj_bifloor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
