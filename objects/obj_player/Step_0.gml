@@ -20,9 +20,8 @@ Move_x = Move_x*Walk_speed;
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_bifloor"
-/// @DnDSaveInfo : "object" "obj_bifloor"
-var l06894CB5_0 = instance_place(x + 0, y + 2, [obj_bifloor]);if ((l06894CB5_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "object" "Collision_tilemap"
+var l06894CB5_0 = instance_place(x + 0, y + 2, [Collision_tilemap]);if ((l06894CB5_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 69F018E1
 	/// @DnDComment : Reset movement$(13_10)on the y-axis
@@ -89,6 +88,5 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDArgument : "yvel" "Move_y"
 /// @DnDArgument : "maxxmove" "Walk_speed"
 /// @DnDArgument : "maxymove" "Jump_speed"
-/// @DnDArgument : "object" "obj_bifloor"
-/// @DnDSaveInfo : "object" "obj_bifloor"
-move_and_collide(Move_x, Move_y, obj_bifloor,4,0,0,Walk_speed,Jump_speed);
+/// @DnDArgument : "object" "Collision_tilemap"
+move_and_collide(Move_x, Move_y, Collision_tilemap,4,0,0,Walk_speed,Jump_speed);

@@ -46,6 +46,8 @@
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
     {"id":{"name":"spr_powerup","path":"sprites/spr_powerup/spr_powerup.yy",},},
+    {"id":{"name":"spr_tilemap","path":"sprites/spr_tilemap/spr_tilemap.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
